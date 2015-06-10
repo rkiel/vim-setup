@@ -26,4 +26,18 @@ open MacVim/build/Release/MacVim.app
 * Install 
   * drag `MacVim/build/Release/MacVim.app` into `Applications`
 
+#### Local Environment
+
+Create local directory
+
+```
+mkdir ~/.backup
+```
+
+Setup for `vim`
+
+```
+ln -nfs ~/GitHub/rkiel/vim-setup/dotfiles/vimrc ~/.vimrc
+ln -nfs ~/GitHub/rkiel/vim-setup/dotfiles/vim ~/.vim
+```
 
