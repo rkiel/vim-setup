@@ -32,8 +32,8 @@ set wildmode=list:longest,full
 
 syntax enable
 syntax on
-set background=dark
-colorscheme solarized
+"set background=dark
+"colorscheme solarized
 
 filetype on
 filetype plugin on
